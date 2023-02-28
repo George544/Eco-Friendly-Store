@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    top: 0;
+    left: 0;
+    
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px ;
+    transition: all 0.3s ease-in-out;
+    text-decoration: bold;
+    
+  }
+  
+  nav ul li a:hover {
+   
+    background-color: white;
+    color: #333;
+    text-decoration: bold;
+  }
+  .hero {
+    background-image: url("https://wallpapercave.com/wp/wp7566456.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 80px 0;
+}
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    }
+    
+    .btn {
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .btn-primary {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #fff;
+    }
+    
+    .btn-primary:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+    }
+    
+    /* Products Styles */
+    .products {
+    padding: 80px 0;
+    }
+    
+    .products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+    
+    .product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    }
+    
+    .product-item img {
+    width: 70%;
+    margin-bottom: 20px;
+    }
+    
+    .product-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    }
+    
+    .product-item p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    }
+    
+    .btn-secondary {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin-top: auto;
+    }
+    
+    .btn-secondary:hover {
+    background-color: #fff;
+    color: #333;
+    border: 2px solid #333;
+    }
+    
+    /* Footer Styles */
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    }
+    
+    footer p {
+    font-size: 18px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        body {
+          font-size: 20px;
+          
+        }
+        .container {
+            font-size: 10px;
+            padding-left: 0px;
+            display: wrap;
+        }
+        h1{
+            font-size: 25px;
+            padding-bottom: 10px;
+            display: wrap;
+        }
+      }
